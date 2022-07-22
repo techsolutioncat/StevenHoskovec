@@ -59,3 +59,12 @@
     background-color: #4f4aa6;
     color: #fff;
 }
+
+#myCarousel .carousel-inner .carousel-item img.avatar {
+    float: left;
+}
+#myCarousel .carousel-inner .carousel-item p.client-job {
+    float: left;
+    margin-top: 13px;
+    margin-left: 10px;
+}
