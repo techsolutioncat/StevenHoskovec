@@ -621,16 +621,21 @@ ul.btn li:last-child {
 }
 
 .our_products .product_box h3 {
-     width: 200px;
+     /* width: 200px; */
      color: #fff;
-     font-size: 20px;
+     font-size: 18px;
      line-height: 20px;
      background-color: #252525;
      font-weight: 500;
      margin: 0 auto;
      padding: 10px 0;
-     margin-top: 40px;
+     margin-top: 0px;
      transition: ease-in all 0.5s;
+
+     display: flex;
+     align-items: center;
+     padding: 10px;
+     min-height: 130px;
 }
 
 .our_products .product_box h3:hover {
