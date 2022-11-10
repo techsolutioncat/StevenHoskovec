@@ -337,7 +337,9 @@ ul.btn li:last-child {
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
      color: #51fe44;
 }
-
+.top-menu-linkedin {
+     font-size: 21px !important;
+ }
 .navbar-expand-md .navbar-nav {
      padding-right: 10px;
 }
