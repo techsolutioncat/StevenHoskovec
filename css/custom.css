@@ -68,3 +68,14 @@
     margin-top: 13px;
     margin-left: 10px;
 }
+
+div.customer-info {
+    display: flex;
+}
+div.customer-info a {
+    padding: 6px;
+    border-radius: 5px;
+}
+div.customer-info a:hover {
+    background: #4aca95a6;
+}
