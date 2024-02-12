@@ -459,12 +459,12 @@
                <div class="col-md-12">
                   <div class="our_products">
                      <div class="row">
-                        <div class="col-md-4 margin_bottom1">
+                        <!-- <div class="col-md-4 margin_bottom1">
                            <a href="https://simplesolitaire.com" target="_blank" class="product_box">
                               <figure><img src="images/works/simplesolitaire.png" alt="simplesolitaire"/></figure>
                               <h3>simplesolitaire(Javascript game): Game development from scratch. UI/UX enhancement, Speed Optimization</h3>
                            </a>
-                        </div>
+                        </div> -->
                         <div class="col-md-4 margin_bottom1">
                            <a href="https://contracollective.com/pages/case-study" target="_blank" class="product_box">
                               <figure><img src="images/works/ContraCollective.png" alt="contracollective"/></figure>
@@ -474,25 +474,43 @@
                         <div class="col-md-4 margin_bottom1">
                            <a href="https://keraneo.com" target="_blank" class="product_box">
                               <figure><img src="images/works/keraneo.png" alt="keraneo"/></figure>
-                              <h3>keraneo(shopify): Theme development from scratch using the Dawn theme. UX enhancement, Speed Optimization</h3>
+                              <h3>keraneo(shopify): Store development from scratch using the Dawn theme. UX enhancement, Speed Optimization</h3>
+                           </a>
+                        </div>
+                        <div class="col-md-4 margin_bottom1">
+                           <a href="https://natures-tale.com" target="_blank" class="product_box">
+                              <figure><img src="images/works/natures-tale.png" alt="natures-tale.com"/></figure>
+                              <h3>natures-tale(shopify): Store development from scratch using the Dawn theme.</h3>
+                           </a>
+                        </div>
+                        <div class="col-md-4 margin_bottom1">
+                           <a href="https://helimix.com/" target="_blank" class="product_box">
+                              <figure><img src="images/works/helimix.png" alt="helimix"/></figure>
+                              <h3>helimix(shopify): Store development from scratch.</h3>
                            </a>
                         </div>
                         <!-- <div class="col-md-4 margin_bottom1">
-                           <a href="https://gooddyeyoung.com/" target="_blank" class="product_box">
+                           <a href="https://gooddyeyoung.com//" target="_blank" class="product_box">
                               <figure><img src="images/works/gooddyeyoung.png" alt="gooddyeyoung"/></figure>
-                              <h3>gooddyeyoung(shopify): Theme development from scratch using the Dawn theme.</h3>
+                              <h3>gooddyeyoung(shopify): Store development from scratch using the Dawn theme</h3>
                            </a>
                         </div> -->
                         <div class="col-md-4 margin_bottom1">
-                           <a href="https://armoryavenue.com/" target="_blank" class="product_box">
-                              <figure><img src="images/works/armoryavenue.png" alt="Armoryavenue"/></figure>
-                              <h3>Armoryavenue(shopify): Theme development from scratch using the Dawn themet</h3>
+                           <a href="https://deepdivewellness.com" target="_blank" class="product_box">
+                              <figure><img src="images/works/deepdivewellness.png" alt="DeepDive Wellness"/></figure>
+                              <h3>DeepDive Wellness(shopify): Store development from scratch using the Impulse theme</h3>
                            </a>
                         </div>
                         <div class="col-md-4 margin_bottom1">
-                           <a href="https://deepdivewellness.com" target="_blank" class="product_box">
-                              <figure><img src="images/works/deepdivewellness.png" alt="DeepDive Wellness"/></figure>
-                              <h3>DeepDive Wellness(shopify): Theme development from scratch using the Dawn themet</h3>
+                           <a href="https://unbunfoods.com" target="_blank" class="product_box">
+                              <figure><img src="images/works/unbunfoods.png" alt="unbunfoods"/></figure>
+                              <h3>unbunfoods(shopify): Store development from scratch using the Impulse theme</h3>
+                           </a>
+                        </div>
+                        <div class="col-md-4 margin_bottom1">
+                           <a href="https://betty-bakery.myshopify.com" target="_blank" class="product_box">
+                              <figure><img src="images/works/betty-bakery.myshopify.png" alt="betty-bakery.myshopify"/></figure>
+                              <h3>betty-bakery.myshopify(shopify): Store development from scratch using the Impulse theme</h3>
                            </a>
                         </div>
                         <!-- <div class="col-md-12">
@@ -606,6 +624,9 @@
                      <!-- <div class="col-md-12">
                         <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
                      </div> -->
+                      <div class="col-md-12" id="copyright">
+                        <p>© 2024 All Rights Reserved.</p>
+                     </div>
                   </div>
                </div>
             </div>
@@ -625,6 +646,15 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+
+      <script>
+         $(document).ready(function() {
+            const year = new Date().getFullYear();
+            console.log(year);
+            $('#copyright p').html('© '+year+' All Rights Reserved.');
+         });
+      </script>
+      
    </body>
 </html>
 
