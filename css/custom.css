@@ -79,3 +79,13 @@ div.customer-info a {
 div.customer-info a:hover {
     background: #4aca95a6;
 }
+
+/* Animation custom style css */
+.our_products .product-item:hover img {
+    transform: scale(1.2);
+    transition: 0.8s ease;
+}
+
+.our_products .product-item figure {
+    overflow: hidden;
+}

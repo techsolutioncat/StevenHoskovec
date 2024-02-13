@@ -96,4 +96,8 @@ $(document).ready(function () {
 		scrollTop: linkScroll -43
 	  },700)
 	});
+
+
+	const year = new Date().getFullYear();
+	$('#copyright p').html('© '+year+' All Rights Reserved.');
  });
